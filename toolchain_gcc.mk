@@ -4,4 +4,4 @@ RM = rm -f
 
 CFLAGS += -Wall -O2 -std=gnu99
 CFLAGS += $(foreach includedir,$(INCLUDE_DIRS),-I$(includedir))
-LDLAGS += 
+LDFLAGS += -lm
