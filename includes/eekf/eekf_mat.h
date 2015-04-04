@@ -1,7 +1,7 @@
 /***********************************************************************************
  * The MIT License (MIT)                                                           *
  *                                                                                 *
- * Copyright (c) 2015 Christian Meißner                                            *
+ * Copyright (c) 2015 Christian Meiï¿½ner                                            *
  *                                                                                 *
  * Permission is hereby granted, free of charge, to any person obtaining a copy    *
  * of this software and associated documentation files (the "Software"), to deal   *
@@ -27,7 +27,7 @@
  *
  * @copyright	The MIT Licence
  * @file		eekf_mat.h
- * @author 		Christian Meißner
+ * @author 		Christian Meiï¿½ner
  */
 
 #ifndef EEKF_MAT_H
@@ -40,9 +40,8 @@
 #define EEKF_MAT_RAND rand
 #define EEKF_MAT_RAND_MAX RAND_MAX
 
-
 /// matrix value type
-typedef float eekf_value;
+typedef double eekf_value;
 
 /// base matrix structure type
 typedef struct {
